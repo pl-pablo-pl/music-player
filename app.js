@@ -19,22 +19,22 @@ const Songs=[
     song:'fe!n',
     artist:'Travis Scott',
     path:
-    "song/fe!n.mp3",
-    cover:'img/fe!n.png',
+    "fe!n.mp3",
+    cover:'fe!n.png',
 },
     {
     song:'molly',
     artist:'Playboi Carti',
     path:
-    "song/molly.mp3",
-    cover:'img/molly.png',
+    "molly.mp3",
+    cover:'molly.png',
 },
     {
     song:'redrum',
     artist:'21Savage',
     path:
-    "song/redrum.mp3",
-    cover:'img/redrum.png',
+    "redrum.mp3",
+    cover:'redrum.png',
 },
     ]
 // keep track song
@@ -103,12 +103,12 @@ function updateProgress(e){
      if(durationSeconds < 10){
          durationSeconds='0'+durationSeconds
      }
-         //   // Delay switching duration Element to avoid NaN
+           // Delay switching duration Element to avoid NaN
 
      if(durationSeconds){
         durationSong.textContent=durationMinutes+':'+durationSeconds
      }
-    //   // Calculate display for currentTime
+           // Calculate display for currentTime
 
      const currentMinutes=Math.floor(currentTime/60)
      let currentSeconds=Math.floor(currentTime%60)
