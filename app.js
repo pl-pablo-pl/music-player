@@ -21,22 +21,22 @@ const Songs=[
     song:'fe!n',
     artist:'Travis Scott',
     path:
-    "song/fe!n.mp3",
-    cover:'img/fe!n.png',
+    "fe!n.mp3",
+    cover:'fe!n.png',
 },
     {
     song:'molly',
     artist:'Playboi Carti',
     path:
-    "song/molly.mp3",
-    cover:'img/molly.png',
+    "molly.mp3",
+    cover:'molly.png',
 },
     {
     song:'redrum',
     artist:'21Savage',
     path:
-    "song/redrum.mp3",
-    cover:'img/redrum.png',
+    "redrum.mp3",
+    cover:'redrum.png',
 },
     ]
 // keep track song
